@@ -41,15 +41,17 @@ main {
     margin: 20px;
 }
 
+.hero > .img {
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: #CBBCB6;
+    border-radius: 50px;
+}
+
 div.container {
     margin-top: 20px;
 }
 
-.hero > .img {
-    height: 500px;
-    background-color: #CBBCB6;
-    border-radius: 50px;
-}
 
 .title > .leadership {
     height: 70px;
