@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    margin: 20px;
+}
+
+.site_header {
+    height: 100px;
+    background-color: #EBD2DB
+}
+
+.hero > .img {
+    height: 500px;
+    background-color: #CBBCB6;
+    border-radius: 50px;
+}
+
+.title > .leadership {
+    height: 70px;
+    border-radius: 30px;
+    background-color: #DBDBDB;
+    margin-top: 10px;
+}
+
+
+
